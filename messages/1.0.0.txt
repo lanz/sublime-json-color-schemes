@@ -1,0 +1,25 @@
+JSON Color Schemes 1.0.0
+========================
+
+First release for Sublime Text 4.
+
+Two schemes are ports of my original Sublime Text 2/3 versions, which stopped
+coloring JSON by depth on ST4 after its JSON syntax was rewritten. The palettes
+are carried over; the selectors behind them are entirely new.
+
+  * Monokai JSON
+  * Jazz Solo Cup JSON
+
+Three more are new here.
+
+  * Monokai Chalk JSON
+  * Monokai Neon JSON
+  * Monokai Neue JSON -- a JSON version of Monokai Neue by Josh Kaplan
+
+What else is new:
+
+  * Numbers and true/false/null are depth-colored too, not just strings.
+  * 20 levels instead of 10, with each palette cycling once it runs out.
+  * Each depth color is a variable, so recoloring a level is a one-line change.
+
+By Lance Duvall. Licensed under the GNU Affero General Public License v3 or later.

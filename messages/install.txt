@@ -1,0 +1,36 @@
+JSON Color Schemes
+==================
+
+Thanks for installing. Five color schemes are included:
+
+  * Monokai JSON        -- the Monokai palette
+  * Monokai Chalk JSON  -- a more pastel palette, with all ten levels actually distinct
+  * Monokai Neon JSON   -- Monokai's accent colors at full strength
+  * Monokai Neue JSON   -- inspired by Monokai Neue, with its six-color cycle
+  * Jazz Solo Cup JSON  -- the teal and purple of the 1990s Jazz cup design
+
+Pick one under Preferences -> Select Color Scheme...
+
+Every level of JSON nesting gets its own color. Levels 1-10 use the palette and
+then it cycles, up to 20 levels deep.
+
+Requires Sublime Text 4 -- the depth coloring relies on scope names that ST4's
+JSON syntax produces.
+
+To recolor a level without editing the package, create
+Packages/User/Monokai JSON.sublime-color-scheme containing only the variables you
+want to change:
+
+  {
+      "variables":
+      {
+          "json_level2": "#7FDBCA",
+      },
+  }
+
+Sublime merges color schemes that share a filename, and Packages/User wins, so
+your overrides survive updates.
+
+Docs and screenshots: https://github.com/lanz/sublime-json-color-schemes
+
+By Lance Duvall. Licensed under the GNU Affero General Public License v3.

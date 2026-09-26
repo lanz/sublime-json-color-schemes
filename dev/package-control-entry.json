@@ -1,0 +1,18 @@
+// Entry to add to wbond/package_control_channel in repository/j.json,
+// in alphabetical order among the other "J" packages.
+//
+// Note: name, description and author are pulled from the GitHub repo itself, so
+// the description lives in the repository's About field, not here.  "author" is
+// overridden below so the display name is used rather than the account name.
+{
+	"name": "JSON Color Schemes",
+	"details": "https://github.com/lanz/sublime-json-color-schemes",
+	"author": "Lance Duvall",
+	"labels": ["color scheme", "json", "monokai", "dark"],
+	"releases": [
+		{
+			"sublime_text": ">=4200",
+			"tags": true
+		}
+	]
+}

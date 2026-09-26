@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+package-metadata.json
+.DS_Store
+Thumbs.db

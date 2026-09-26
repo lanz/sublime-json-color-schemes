@@ -1,0 +1,202 @@
+{
+ "_comment": "Scope stacks recorded from Sublime Text 4 build 4200 (JSON.sublime-syntax version 2) for the files in ../../samples/ (object.json, array.json, mixed.json). These are what the editor actually reports for each token, and they are what verify.py checks the generated selectors against.",
+ "sublime_build": 4200,
+ "cases": [
+  {
+   "file": "object.json",
+   "row": 2,
+   "kind": "key",
+   "level": 1,
+   "scope": "source.json meta.mapping.key.json string.quoted.double.json"
+  },
+  {
+   "file": "object.json",
+   "row": 3,
+   "kind": "key",
+   "level": 2,
+   "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json"
+  },
+  {
+   "file": "object.json",
+   "row": 4,
+   "kind": "key",
+   "level": 3,
+   "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json"
+  },
+  {
+   "file": "object.json",
+   "row": 5,
+   "kind": "key",
+   "level": 4,
+   "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json"
+  },
+  {
+   "file": "object.json",
+   "row": 6,
+   "kind": "key",
+   "level": 5,
+   "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json"
+  },
+  {
+   "file": "object.json",
+   "row": 7,
+   "kind": "key",
+   "level": 6,
+   "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json"
+  },
+  {
+   "file": "object.json",
+   "row": 8,
+   "kind": "key",
+   "level": 7,
+   "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json"
+  },
+  {
+   "file": "object.json",
+   "row": 9,
+   "kind": "key",
+   "level": 8,
+   "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json"
+  },
+  {
+   "file": "object.json",
+   "row": 10,
+   "kind": "key",
+   "level": 9,
+   "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json"
+  },
+  {
+   "file": "object.json",
+   "row": 11,
+   "kind": "key",
+   "level": 10,
+   "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json"
+  },
+  {
+   "file": "object.json",
+   "row": 11,
+   "kind": "string",
+   "level": 10,
+   "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.string.json string.quoted.double.json"
+  },
+  {
+   "file": "array.json",
+   "row": 2,
+   "kind": "key",
+   "level": 1,
+   "scope": "source.json meta.mapping.key.json string.quoted.double.json"
+  },
+  {
+   "file": "array.json",
+   "row": 3,
+   "kind": "string",
+   "level": 2,
+   "scope": "source.json meta.mapping.value.json meta.sequence.json meta.string.json string.quoted.double.json"
+  },
+  {
+   "file": "array.json",
+   "row": 5,
+   "kind": "string",
+   "level": 3,
+   "scope": "source.json meta.mapping.value.json meta.sequence.json meta.sequence.json meta.string.json string.quoted.double.json"
+  },
+  {
+   "file": "array.json",
+   "row": 7,
+   "kind": "string",
+   "level": 4,
+   "scope": "source.json meta.mapping.value.json meta.sequence.json meta.sequence.json meta.sequence.json meta.string.json string.quoted.double.json"
+  },
+  {
+   "file": "array.json",
+   "row": 9,
+   "kind": "string",
+   "level": 5,
+   "scope": "source.json meta.mapping.value.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.string.json string.quoted.double.json"
+  },
+  {
+   "file": "array.json",
+   "row": 11,
+   "kind": "string",
+   "level": 6,
+   "scope": "source.json meta.mapping.value.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.string.json string.quoted.double.json"
+  },
+  {
+   "file": "array.json",
+   "row": 13,
+   "kind": "string",
+   "level": 7,
+   "scope": "source.json meta.mapping.value.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.string.json string.quoted.double.json"
+  },
+  {
+   "file": "array.json",
+   "row": 15,
+   "kind": "string",
+   "level": 8,
+   "scope": "source.json meta.mapping.value.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.string.json string.quoted.double.json"
+  },
+  {
+   "file": "array.json",
+   "row": 17,
+   "kind": "string",
+   "level": 9,
+   "scope": "source.json meta.mapping.value.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.string.json string.quoted.double.json"
+  },
+  {
+   "file": "array.json",
+   "row": 19,
+   "kind": "string",
+   "level": 10,
+   "scope": "source.json meta.mapping.value.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.sequence.json meta.string.json string.quoted.double.json"
+  },
+  {
+   "file": "mixed.json",
+   "row": 2,
+   "kind": "key",
+   "level": 1,
+   "scope": "source.json meta.mapping.key.json string.quoted.double.json"
+  },
+  {
+   "file": "mixed.json",
+   "row": 3,
+   "kind": "string",
+   "level": 2,
+   "scope": "source.json meta.mapping.value.json meta.sequence.json meta.string.json string.quoted.double.json"
+  },
+  {
+   "file": "mixed.json",
+   "row": 5,
+   "kind": "string",
+   "level": 3,
+   "scope": "source.json meta.mapping.value.json meta.sequence.json meta.sequence.json meta.string.json string.quoted.double.json"
+  },
+  {
+   "file": "mixed.json",
+   "row": 8,
+   "kind": "key",
+   "level": 3,
+   "scope": "source.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json"
+  },
+  {
+   "file": "mixed.json",
+   "row": 9,
+   "kind": "string",
+   "level": 4,
+   "scope": "source.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.string.json string.quoted.double.json"
+  },
+  {
+   "file": "mixed.json",
+   "row": 12,
+   "kind": "key",
+   "level": 5,
+   "scope": "source.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json"
+  },
+  {
+   "file": "mixed.json",
+   "row": 17,
+   "kind": "key",
+   "level": 8,
+   "scope": "source.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json meta.sequence.json meta.sequence.json meta.mapping.key.json string.quoted.double.json"
+  }
+ ]
+}
