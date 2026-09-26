@@ -1,2 +1,11 @@
 * text=auto eol=lf
 *.png binary
+*.jpg binary
+
+# Keep the installed package small. GitHub honors export-ignore when it builds the
+# archive Package Control downloads, so these ship on the repository page without
+# being installed into anyone's editor.
+/screenshots export-ignore
+/images export-ignore
+*.sublime-project export-ignore
+*.sublime-workspace export-ignore
