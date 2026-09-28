@@ -198,10 +198,9 @@ were about 1 MB and 1,563 rules each. These are 26 KB and 107 rules.
 edit, see [Customizing](#customizing) above. Everything below is for changing how the
 schemes are built.
 
-The generator ships with the package, so you already have it: look in `Packages/JSON Color
-Schemes/dev/` (*Preferences → Browse Packages…*), or clone the repo. Generating and
-checking the schemes is plain Python 3 with no dependencies; only the optional screenshot
-check needs Pillow.
+The generator isn't installed with the package, to keep the download small. Clone the repo
+to get it. Generating and checking the schemes is plain Python 3 with no dependencies;
+only the optional screenshot check needs Pillow.
 
 ### Change the palette
 
